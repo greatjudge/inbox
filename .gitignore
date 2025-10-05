@@ -1,0 +1,35 @@
+# .gitignore для Go проекта
+# Бинарники
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+bin/
+dist/
+
+# Тестовые файлы
+*.test
+*.out
+coverage.out
+
+# Go workspace file
+go.work
+
+# Зависимости (vendor опционально)
+vendor/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env файлы
+.env
+.env.local
